@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import styles from './Form.module.css';
-import BulletPointImage from '/Assets/icon-success.svg';
+import BulletPointImage from '/Assets/icon-list.svg';
 import Input from './Input';
 import Button from './Button';
 
