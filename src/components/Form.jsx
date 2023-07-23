@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import styles from './Form.module.css';
-
+import BulletPointImage from '/Assets/icon-success.svg';
 import Input from './Input';
 import Button from './Button';
 
@@ -61,7 +61,7 @@ function Form({ onClickSubscribe }) {
 function BulletPoint({ text }) {
   return (
     <div className={styles.BulletPoints}>
-      <img src='Assets/icon-success.svg'
+      <img src={BulletPointImage}
         alt="success points"
         className={styles.BulletPointImg}
       />
