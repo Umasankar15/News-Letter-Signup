@@ -2,7 +2,8 @@ import React, { useState, useEffect } from 'react';
 import styles from './NewsLetterForm.module.css';
 import FormWrapper from './FormWrapper';
 import Button from './Button';
-import SuccessIcon from '../../Assets/icon-success.svg';
+import SuccessIcon from '/Assets/icon-success.svg';
+import SignUpImage from '/Assets/illustration-sign-up-desktop.svg';
 import Form from './Form';
 
 function NewsLetterForm() {
@@ -32,7 +33,7 @@ function NewsLetter({ onClickSubscribe }) {
       <Form onClickSubscribe={onClickSubscribe} />
     </div>
     <div className={styles.NewsLetterImageContainer}>
-      <img src="Assets/illustration-sign-up-desktop.svg" alt="news letter form text" />
+      <img src={SignUpImage} alt="news letter form text" />
     </div>
   </FormWrapper>
 }
