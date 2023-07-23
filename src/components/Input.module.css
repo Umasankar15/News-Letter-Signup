@@ -1,0 +1,37 @@
+.InputContainer {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  row-gap: .5rem;
+}
+
+.InputLabel {
+  font-size: 0.8rem;
+  font-weight: 700;
+}
+
+.EmailInput {
+  padding: 0.7rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  outline: 0;
+}
+
+.EmailInput::placeholder {
+  color: #bbb;
+}
+
+.EmailInput:focus {
+  border: 1px solid hsl(235, 18%, 26%)
+}
+
+.LabelAndErrorContainer {
+  display: flex;
+  justify-content: space-between;
+}
+
+.ErrorMessage {
+  color: #EC7474;
+  font-size: 0.8rem;
+}
