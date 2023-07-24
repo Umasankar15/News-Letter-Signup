@@ -39,6 +39,7 @@ function NewsLetter({ onClickSubscribe }) {
 }
 
 function Success({ onClickDismiss }) {
+  const email = localStorage.getItem('email');
   return <FormWrapper style={{ width: '400px', justifyContent: 'flex-start' }}>
     <div className={styles.successContainer}>
       <div className={styles.successImageContainer}>
@@ -49,7 +50,7 @@ function Success({ onClickDismiss }) {
       </h1>
       <div className={styles.successText}>
         <span>
-          A Confirmation mail has been sent to email. Please open it and click the button inside to confirm your subscription
+          {`A Confirmation mail has been sent to ${email}. Please open it and click the button inside to confirm your subscription`}
         </span>
       </div>
       <div className={styles.buttonContainer}>
