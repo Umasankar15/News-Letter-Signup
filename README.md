@@ -28,13 +28,13 @@ Users should be able to:
 
 ### Screenshot
 
-### News Letter Signup Form
+#### News Letter Signup Form
 
-![Desktop Form Preview](/Assets/desktop-form-preview.png)
+![Desktop Form Preview](Assets/desktop-form-preview.png)
 
-### News Letter success page
+#### News Letter success page
 
-![Desktop Success Preview](/Assets/desktop-success-preview.png)
+![Desktop Success Preview](Assets/desktop-success-preview.png)
 
 ### Links
 
